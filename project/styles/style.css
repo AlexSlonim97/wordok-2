@@ -1,0 +1,88 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: Geometria;
+    src: url("../fonts/Geometria-Bold.woff");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Geometria;
+    src: url("../fonts/Geometria-Medium.woff");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Geometria;
+    src: url("../fonts/Geometria.woff");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Noto-sans;
+    src: url("../fonts/noto-sans-v26-latin_cyrillic-700.woff");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Noto-sans;
+    src: url("../fonts/noto-sans-v26-latin_cyrillic-regular.woff");
+    font-weight: normal;
+}
+
+
+
+body {
+    font-family: Geometria, sans-serif;
+    background: #262425;
+}
+.container {
+    max-width: 1712px;
+    margin: 0 auto;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+justify-content: flex-start;
+margin-top: 56px;
+margin-bottom: 88px;
+margin-left: 90px;
+}
+
+.menu {
+    justify-content: flex-end;
+    margin-left: 1489px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dno {
+    justify-content: center;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
